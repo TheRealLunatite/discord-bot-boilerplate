@@ -1,0 +1,20 @@
+{
+  "name": "discord-bot-boilerplate",
+  "version": "1.0.0",
+  "description": "A simple Discord bot boilerplate made in Typescript to get you started.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheRealLunatite/discord-bot-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheRealLunatite/discord-bot-boilerplate/issues"
+  },
+  "homepage": "https://github.com/TheRealLunatite/discord-bot-boilerplate#readme"
+}
