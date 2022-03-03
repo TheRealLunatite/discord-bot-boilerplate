@@ -48,10 +48,6 @@ export class Bot {
     public async registerCommands() : Promise<void> {
         console.log("Started refreshing application (/) commands.");
 
-        if(!(this.client.application) || !(this.client.user)) {
-            throw new Error("Client application id or user cannot be retrieved.");
-        }
-
         if(this.client.slashCommands.size === 0) {
             throw new Error("There are no slash commands to register.");
         }
@@ -61,7 +57,7 @@ export class Bot {
 
         this.client.slashCommands.forEach((slashCommand) => body.push(slashCommand.toJSON()));
 
-        await rest.put(Routes.applicationGuildCommands(this.client.application.id , this.config.guildId) , {
+        await rest.put(Routes.applicationGuildCommands(this.config.applicationId, this.config.guildId) , {
             body
         });
 

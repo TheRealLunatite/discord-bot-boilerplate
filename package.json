@@ -4,7 +4,8 @@
   "description": "A simple Discord bot boilerplate made in Typescript to get you started.",
   "main": "index.js",
   "scripts": {
-    "start-bot" : "ts-node src"
+    "start-bot" : "ts-node src",
+    "register-commands" : "ts-node src/registerCommands.ts"
   },
   "repository": {
     "type": "git",

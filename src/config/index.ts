@@ -23,7 +23,8 @@ function getEnvironmentVariable(varName: string, required?: boolean, defaultValu
 
 const config: IConfiguration = {
     botToken : getEnvironmentVariable("BOT_TOKEN" , true) as string,
-    guildId : getEnvironmentVariable("GUILD_ID" , true) as string
+    guildId : getEnvironmentVariable("GUILD_ID" , true) as string,
+    applicationId : getEnvironmentVariable("APPLICATION_ID" , true) as string
 };
 
 export default config;
