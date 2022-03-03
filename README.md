@@ -42,3 +42,6 @@ yarn run start-bot
 # Run this command if you've added new commands or it is your first time running the bot.
 yarn run register-commands
 ```
+
+# Adding a new event listener or slash command.
+Please refer to the examples files created in this repository. ```src/commands``` and ```src/events```.
