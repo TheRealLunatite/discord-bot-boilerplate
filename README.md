@@ -44,4 +44,4 @@ yarn run register-commands
 ```
 
 # Adding a new event listener or slash command.
-Please refer to the examples files created in this repository. ```src/commands``` and ```src/events```.
+Please refer to the example files in this repository. ```src/commands``` and ```src/events```.
