@@ -4,7 +4,7 @@
   "description": "A simple Discord bot boilerplate made in Typescript to get you started.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start-bot" : "ts-node src"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,19 @@
   "bugs": {
     "url": "https://github.com/TheRealLunatite/discord-bot-boilerplate/issues"
   },
-  "homepage": "https://github.com/TheRealLunatite/discord-bot-boilerplate#readme"
+  "homepage": "https://github.com/TheRealLunatite/discord-bot-boilerplate#readme",
+  "dependencies": {
+    "@discordjs/builders": "^0.12.0",
+    "@discordjs/rest": "^0.3.0",
+    "discord-api-types": "^0.27.3",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.13.0",
+    "@typescript-eslint/parser": "^5.13.0",
+    "eslint": "^8.10.0",
+    "ts-node": "^10.6.0",
+    "typescript": "^4.6.2"
+  }
 }
