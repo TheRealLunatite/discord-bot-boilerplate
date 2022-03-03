@@ -1,4 +1,3 @@
-import process from "process";
 import { Bot } from "./bot";
 import config from "./config";
 
@@ -8,5 +7,5 @@ import config from "./config";
     await bot.setupCommands();
     await bot.registerCommands();
 
-    process.exit(1);
+    bot.client.destroy();
 })();
