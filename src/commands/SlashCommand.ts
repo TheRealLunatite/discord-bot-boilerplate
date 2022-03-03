@@ -45,7 +45,7 @@ export abstract class SlashCommand {
     }
 
     public async execute(client : Client , interaction : CommandInteraction) : Promise<void> {
-        console.log(client);
+        console.error(`${this.name} command has not been setup.`);
         await interaction.reply(`${this.name} command has not been setup.`);
     }
 }

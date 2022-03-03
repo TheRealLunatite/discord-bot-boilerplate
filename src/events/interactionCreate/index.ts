@@ -12,7 +12,7 @@ export class InteractionCreateEvent implements ClientEventListener {
             const slashCommand = client.slashCommands.get(interactionCommandName);
 
             if(!(slashCommand)) {
-                console.error(`${interactionCommandName} slash command does not exist. Try running 'yarn run deploy-commands' on your terminal.`);
+                console.error(`${interactionCommandName} slash command does not exist. Try running 'yarn run register-commands' on your terminal.`);
                 return;
             }
 
